@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-kanit: "Kanit", monospace;
+}
+
+* {
+  font-family: "Kanit", sans-serif;
+  font-style: normal;
+}
+
+.banner-image_bg {
+  background-image: url("./assets/banner_bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 70%;
+}
+
+.banner-gradient {
+  background: linear-gradient(to right, #ffffff00, #ffffffcc);
+}
+
+.text-style-kaushan {
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+}
+
+.custom-swiper .swiper-pagination {
+  position: relative; /* Moves pagination out of the overlapping area */
+  bottom: 20px; /* Adjusts spacing below the carousel */
+  text-align: center; /* Centers pagination buttons */
+  margin-top: 20px; /* Adds space between the content and the bullet points */
+}
+
+.custom-swiper .swiper-pagination-bullet {
+  background-color: #33333333; /* Change to desired color */
+  opacity: 0.8; /* Add transparency if needed */
+  margin-top: 2px;
+}
+
+.custom-swiper .swiper-pagination-bullet-active {
+  background-color: #ff5733; /* Change to desired active color */
+  transform: scale(1.2); /* Slightly enlarge active bullet */
+}
