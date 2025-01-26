@@ -21,7 +21,7 @@ export function ContactInfo() {
         <button className="border-[1px] px-3 py-1 flex items-center justify-center rounded-lg">
           <span className="truncate">Connect on Whatsapp</span>
           <img
-            src={whatsApp}
+            src={WhatsApp}
             className="ml-3 size-6 md:size-[30px]"
             alt="WhatsApp"
           />
