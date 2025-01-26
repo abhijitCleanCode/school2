@@ -7,6 +7,7 @@ import certificate2 from "./certificate2.png";
 import certificate3 from "./certificate3.png";
 import open_comma from "./open_comma.png";
 import close_comma from "./close_comma.png";
+import WhatsApp from "./WhatsApp.png";
 
 export {
   school_logo,
@@ -18,4 +19,5 @@ export {
   certificate3,
   open_comma,
   close_comma,
+  WhatsApp,
 };

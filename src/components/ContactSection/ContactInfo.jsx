@@ -1,4 +1,4 @@
-import whatsApp from "../ContactSection/whatsApp.png";
+import { WhatsApp } from "../../assets";
 
 export function ContactInfo() {
   return (
