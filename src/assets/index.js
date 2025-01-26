@@ -8,6 +8,9 @@ import certificate3 from "./certificate3.png";
 import open_comma from "./open_comma.png";
 import close_comma from "./close_comma.png";
 import WhatsApp from "./WhatsApp.png";
+import geeta from "./geeta.png";
+import geetam from "./geetam.png";
+import kamlesh from "./kamlesh.png";
 
 export {
   school_logo,
@@ -20,4 +23,7 @@ export {
   open_comma,
   close_comma,
   WhatsApp,
+  geeta,
+  geetam,
+  kamlesh,
 };

@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import { BlogList } from "./BlogList";
 import { BlogControls } from "./BlogControls";
-import ImageOne from "../FacultySection/Geetam.png";
-import ImageTow from "../FacultySection/geeta.png";
-import ImageThree from "../FacultySection/kamlesh.png";
+
+import { geeta, geetam, kamlesh } from "../../assets";
 
 export function BlogsData() {
   const [visibleBlogIndex, setVisibleBlogIndex] = useState(0);
@@ -11,17 +10,17 @@ export function BlogsData() {
 
   const blogs = [
     {
-      geetamImg: ImageOne,
+      geetamImg: geeta,
       Name: "Mr. Geetam Singh",
       Para: "Mathematics Faculty",
     },
     {
-      geetamImg: ImageTow,
+      geetamImg: geetam,
       Name: "Mrs. Geeta Rao",
       Para: "English Faculty",
     },
     {
-      geetamImg: ImageThree,
+      geetamImg: kamlesh,
       Name: "Dr. Kamlesh Srivastva",
       Para: "Science Faculty",
     },
